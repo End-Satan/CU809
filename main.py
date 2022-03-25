@@ -4,8 +4,8 @@ import requests
 app = Flask(__name__)
 
 
-HOST_IP = "120.53.243.247"  # 你的目的服务器IP（比如v2ray）
-HOST_PORT = "8180"  # 你的目的服务器端口
+HOST_IP = "xxx.xxx.xxx.xxx"  # 你的目的服务器IP（比如v2ray）
+HOST_PORT = "7777"  # 你的目的服务器端口
 
 THIS_SERVER_IP = requests.get("http://httpbin.org/ip").json()["origin"]
 
